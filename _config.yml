@@ -1,0 +1,8 @@
+github: Transportes JL Monteiro
+timezone: Europe/Lisbon
+encoding: utf-8
+
+# SASS Configuration
+sass:
+  style: :compressed
+  sass_dir: _sass

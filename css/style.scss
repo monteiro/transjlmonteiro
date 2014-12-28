@@ -1,0 +1,54 @@
+---
+---
+
+// Core variables and mixins
+@import "variables";
+@import "mixins";
+
+// Reset and dependencies
+@import "normalize";
+@import "print";
+@import "glyphicons";
+
+// Core CSS
+@import "scaffolding";
+@import "type";
+@import "code";
+@import "grid";
+@import "forms";
+@import "buttons";
+
+body {
+	font-weight: 300;
+}
+
+#header {
+	background-color: #449944;
+	color: #fff;
+
+	.title {
+		font-size: 60px;
+	}
+	.sub-title {
+		font-size: 30px;
+		font-weight: normal;
+		margin: 40px 0;
+	}
+	#banner {
+		margin: 0 auto;
+		display: block;
+	}
+}
+
+#content {
+	.block {
+		margin-top: 20px;
+		text-align: center;
+	}
+}
+
+#footer {
+	margin: 10px 0;
+	text-align: center;
+	font-size: 90%;
+}
