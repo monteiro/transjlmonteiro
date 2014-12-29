@@ -5,3 +5,4 @@ pkg/
 test/
 .DS_Store
 /.sass-cache
+.Gemfile.lock
