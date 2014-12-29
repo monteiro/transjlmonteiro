@@ -75,8 +75,8 @@ window.onload = () ->
 	animated.strokeStyle = '#fff'
 	animated.lineCap = 'round'
 	
-	line_x = canvas.width / 2 - 30
-	line_y = canvas.height / 2 + 30
+	line_x = canvas.width / 2 - 80
+	line_y = canvas.height / 2 + 20
 	
 	animated.beginPath()
 	animated.moveTo(line_x,line_y)
@@ -95,6 +95,6 @@ window.onload = () ->
 	animated.closePath()
 	
 	imageObj = new Image()
-	imageObj.onload = () -> animated.drawImage(imageObj, 2*x-edge / 2, y+10, 200, 200)
+	imageObj.onload = () -> animated.drawImage(imageObj, 2*x-edge-10 / 2, y-15, 200, 200)
 	imageObj.src = '/assets/images/noun_29471_cc.svg'
 	
