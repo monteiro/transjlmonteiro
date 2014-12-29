@@ -7,14 +7,12 @@
 
 // Reset and dependencies
 @import "normalize";
-@import "print";
 @import "glyphicons";
 
 // Core CSS
 @import "scaffolding";
 @import "type";
 @import "grid";
-@import "buttons";
 
 body {
 	font-weight: 300;
