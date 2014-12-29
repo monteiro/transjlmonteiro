@@ -1,6 +1,7 @@
-github: Transportes JL Monteiro
+---
 timezone: Europe/Lisbon
 encoding: utf-8
+repository: https://github.com/xipasduarte/transjlmonteiro
 
 # SASS Configuration
 sass:
