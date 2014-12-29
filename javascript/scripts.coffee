@@ -96,5 +96,5 @@ window.onload = () ->
 	
 	imageObj = new Image()
 	imageObj.onload = () -> animated.drawImage(imageObj, 2*x-edge-10 / 2, y-15, 200, 200)
-	imageObj.src = '/assets/images/noun_29471_cc.svg'
+	imageObj.src = 'assets/images/noun_29471_cc.svg'
 	
