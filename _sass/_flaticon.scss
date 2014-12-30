@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("../assets/fonts/flaticon.eot");
+	src: url("../assets/fonts/flaticon.eot#iefix") format("embedded-opentype"),
+	url("../assets/fonts/flaticon.woff") format("woff"),
+	url("../assets/fonts/flaticon.ttf") format("truetype"),
+	url("../assets/fonts/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.flaticon-email:before {
+	content: "\e000";
+}
+.flaticon-phone:before {
+	content: "\e001";
+}
