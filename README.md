@@ -11,5 +11,5 @@ A stripped down bootstrap is used for typography and layout. (This may change in
 * [monteiro](http://monteiro.github.com)
 
 ## Credits
-Truck image on index.html by Roman Kovbasyuk from the Noun Project licensed under [Creative Commons – Attribution (CC BY 3.0)](http://creativecommons.org/licenses/by/3.0/us/)
-Icons made by [Freepik](http://www.freepik.com), [OCHA](http://www.unocha.org)OCHA from [Flaticon](http://www.flaticon.com)    [Creative Commons – Attribution (CC BY 3.0)](http://creativecommons.org/licenses/by/3.0)
+* Truck image on index.html by Roman Kovbasyuk from the Noun Project licensed under [Creative Commons – Attribution (CC BY 3.0)](http://creativecommons.org/licenses/by/3.0/us/)
+* Icons made by [Freepik](http://www.freepik.com), [OCHA](http://www.unocha.org)OCHA from [Flaticon](http://www.flaticon.com)    [Creative Commons – Attribution (CC BY 3.0)](http://creativecommons.org/licenses/by/3.0)
