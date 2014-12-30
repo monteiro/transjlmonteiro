@@ -3,7 +3,7 @@
 
 window.onload = () ->
 	# Banner Canvas
-	canvas = document.getElementById('banner')
+	canvas = document.getElementById('canvas')
 	
 	# Points A and B
 	points = canvas.getContext('2d')
@@ -98,3 +98,35 @@ window.onload = () ->
 	imageObj.onload = () -> animated.drawImage(imageObj, 2*x-edge-10 / 2, y-15, 200, 200)
 	imageObj.src = 'assets/images/noun_29471_cc.svg'
 	
+	
+
+	# Banner XS
+	canvas_xs = document.getElementById('canvas-xs')
+	truck_xs = canvas_xs.getContext('2d')
+	
+	truck_xs.lineWidth = 5
+	truck_xs.strokeStyle = '#fff'
+	truck_xs.lineCap = 'round'
+	
+	line_x = canvas_xs.width / 2 -20
+	line_y = canvas_xs.height / 2
+	
+	truck_xs.beginPath()
+	truck_xs.moveTo(line_x,line_y)
+	truck_xs.lineTo(line_x-50,line_y)
+	truck_xs.stroke()
+	truck_xs.closePath()
+	truck_xs.beginPath()
+	truck_xs.moveTo(line_x,line_y-20)
+	truck_xs.lineTo(line_x-40,line_y-20)
+	truck_xs.stroke()
+	truck_xs.closePath()
+	truck_xs.beginPath()
+	truck_xs.moveTo(line_x,line_y+20)
+	truck_xs.lineTo(line_x-40,line_y+20)
+	truck_xs.stroke()
+	truck_xs.closePath()
+	
+	imageObj = new Image()
+	imageObj.onload = () -> truck_xs.drawImage(imageObj, canvas_xs.width / 3, 0, 200, 200)
+	imageObj.src = 'assets/images/noun_29471_cc.svg'

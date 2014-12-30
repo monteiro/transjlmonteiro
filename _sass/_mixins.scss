@@ -2,7 +2,9 @@
 // --------------------------------------------------
 
 // Utilities
+@import "mixins/hide-text";
 @import "mixins/image";
+@import "mixins/responsive-visibility";
 @import "mixins/tab-focus";
 @import "mixins/text-emphasis";
 @import "mixins/text-overflow";
@@ -16,6 +18,5 @@
 // Layout
 @import "mixins/clearfix";
 @import "mixins/center-block";
-@import "mixins/nav-vertical-align";
 @import "mixins/grid-framework";
 @import "mixins/grid";
